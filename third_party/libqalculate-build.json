@@ -1,0 +1,27 @@
+{
+  "version": "5.12.0",
+  "source_url": "https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz",
+  "source_sha256": "f3dfdcf97d5a9e3a5bc0ebe66afd184721b606276eee3ba0ada8c92a5e71d44c",
+  "license": "GPL-2.0-or-later",
+  "configure_flags": [
+    "--without-libcurl",
+    "--without-icu",
+    "--without-gnuplot-call",
+    "--disable-nls",
+    "--disable-textport",
+    "--disable-static",
+    "--disable-insecure",
+    "--enable-compiled-definitions",
+    "--disable-dependency-tracking"
+  ],
+  "build_makefile_adjustment": "-lBcrypt -> -lbcrypt for Linux case sensitive cross-linker",
+  "compiler": "Native MSYS2 GCC 16.2.0-4 (g++.exe), hosted on Linux through Wine 9.0",
+  "dll": "mingw64/bin/libqalculate-23.dll",
+  "import_library": "mingw64/lib/libqalculate.dll.a",
+  "headers": "mingw64/include/libqalculate",
+  "compiled_definitions": true,
+  "abi_policy": "Compiler, C++ standard headers, CRT/import libraries, and runtime DLLs are all taken from the same MSYS2 MINGW64 prefix. No host MinGW compiler is used.",
+  "link_step": "Same native GCC16 g++.exe links the 42 compiled objects with -shared and --out-implib, then installs libqalculate-23.dll plus libqalculate.dll.a; this avoids host libtool misidentifying the Wine compiler wrapper.",
+  "dll_sha256": "59015b5c2b57f2780919ba232dd9b4128db45780a3edda0636a84b66ce5aa6e7",
+  "provenance": "Dependency and toolchain input metadata. Application builds and runtime validation require separate evidence."
+}

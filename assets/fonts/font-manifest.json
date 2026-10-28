@@ -1,0 +1,33 @@
+{
+  "family": "Noto Sans CJK",
+  "version": "2.004",
+  "license": "SIL Open Font License 1.1",
+  "modifications": "None; original OTF bytes",
+  "purpose": "Japanese and Simplified Chinese fallback glyphs, retaining the system UI primary font",
+  "files": [
+    {
+      "file": "NotoSansCJKjp-Regular.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
+      "bytes": 16467736,
+      "sha256": "68a3fc98800b2a27b371f2fb79991daf3633bd89309d4ffaa6946fd587f375b5"
+    },
+    {
+      "file": "NotoSansCJKsc-Regular.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "file": "OFL-NotoSansCJK.txt",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/LICENSE",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "file": "NotoSansCJK-NEWS.md",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/NEWS.md",
+      "bytes": 906,
+      "sha256": "0ce40cb57d909c0f9043d3335685e2a974c2f692b03160ee26d671a933bc875e"
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+[
+  {
+    "file": "curl_8.5.0-2ubuntu10.13.debian.tar.xz",
+    "sha256": "d11ea8d8546146b4367410b04945db4462832d262bb04ba81c97d145e86e9ce7",
+    "bytes": 89820,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/c/curl/curl_8.5.0-2ubuntu10.13.debian.tar.xz",
+    "project": "curl",
+    "version": "8.5.0-2ubuntu10.13",
+    "platform": "Linux"
+  },
+  {
+    "file": "curl_8.5.0-2ubuntu10.13.dsc",
+    "sha256": "4b473f9f00fdbdd696f4dd71915c155207284bbb24b6dbd5eea2638efd488cb3",
+    "bytes": 3092,
+    "kind": "distribution-source-descriptor",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/c/curl/curl_8.5.0-2ubuntu10.13.dsc",
+    "project": "curl",
+    "version": "8.5.0-2ubuntu10.13",
+    "platform": "Linux"
+  },
+  {
+    "file": "curl_8.5.0.orig.tar.gz",
+    "sha256": "05fc17ff25b793a437a0906e0484b82172a9f4de02be5ed447e0cab8c3475add",
+    "bytes": 4372979,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/c/curl/curl_8.5.0.orig.tar.gz",
+    "project": "curl",
+    "version": "8.5.0-2ubuntu10.13",
+    "platform": "Linux"
+  },
+  {
+    "file": "cyrus-sasl2_2.1.28+dfsg1-5ubuntu3.1.debian.tar.xz",
+    "sha256": "a1017cf9d4fd098325338d1d7f1f71cb87102934e7b35c8f5e726d246360689e",
+    "bytes": 98324,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/cyrus-sasl2/cyrus-sasl2_2.1.28+dfsg1-5ubuntu3.1.debian.tar.xz",
+    "project": "cyrus-sasl2",
+    "version": "2.1.28+dfsg1-5ubuntu3.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "cyrus-sasl2_2.1.28+dfsg1-5ubuntu3.1.dsc",
+    "sha256": "6ede2d7122c4ea1e807f45b647edbdf9fb1521ad09b0ca0b9b48f220ef33f23f",
+    "bytes": 3501,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/cyrus-sasl2/cyrus-sasl2_2.1.28+dfsg1-5ubuntu3.1.dsc",
+    "project": "cyrus-sasl2",
+    "version": "2.1.28+dfsg1-5ubuntu3.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "cyrus-sasl2_2.1.28+dfsg1.orig.tar.xz",
+    "sha256": "e796a5d85d1a85e1b433d43504e467f9075c7ebc0b45730a3996cf11b1deada4",
+    "bytes": 794540,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/cyrus-sasl2/cyrus-sasl2_2.1.28+dfsg1.orig.tar.xz",
+    "project": "cyrus-sasl2",
+    "version": "2.1.28+dfsg1-5ubuntu3.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "dbus_1.14.10-4ubuntu4.1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.14.10-4ubuntu4.1.debian.tar.xz",
+    "sha256": "c28e0e4840bf3c3f3cbdacae9b7228bb4694dd234f325535942dde76af3c322e",
+    "project": "dbus",
+    "version": "1.14.10-4ubuntu4.1",
+    "platform": "Linux",
+    "bytes": 69668,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "dbus_1.14.10-4ubuntu4.1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.14.10-4ubuntu4.1.dsc",
+    "sha256": "3d9037176550657a3584f7640027a6d970c85b0cd158a2be7e8051aab1349edb",
+    "project": "dbus",
+    "version": "1.14.10-4ubuntu4.1",
+    "platform": "Linux",
+    "bytes": 3746,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "dbus_1.14.10.orig.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.14.10.orig.tar.xz",
+    "sha256": "ba1f21d2bd9d339da2d4aa8780c09df32fea87998b73da24f49ab9df1e36a50f",
+    "project": "dbus",
+    "version": "1.14.10-4ubuntu4.1",
+    "platform": "Linux",
+    "bytes": 1372328,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "dbus_1.14.10.orig.tar.xz.asc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.14.10.orig.tar.xz.asc",
+    "sha256": "5f292cd0603c3d736026ed3f4d1c1937847981669c1f0a389083518f013e1081",
+    "project": "dbus",
+    "version": "1.14.10-4ubuntu4.1",
+    "platform": "Linux",
+    "bytes": 833,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "duktape_2.7.0+tests-0ubuntu3.debian.tar.xz",
+    "sha256": "8faa4eeba9079ad47392d07c55c19ab34e9de514a9c8ec2700f4b8a38aabd660",
+    "bytes": 9128,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/duktape/duktape_2.7.0+tests-0ubuntu3.debian.tar.xz",
+    "project": "duktape",
+    "version": "2.7.0+tests-0ubuntu3",
+    "platform": "Linux"
+  },
+  {
+    "file": "duktape_2.7.0+tests-0ubuntu3.dsc",
+    "sha256": "cb5f1815b6d8ff6dd80200fc86998dbb833183ac46dff23ec7f2a829e180a397",
+    "bytes": 2308,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/duktape/duktape_2.7.0+tests-0ubuntu3.dsc",
+    "project": "duktape",
+    "version": "2.7.0+tests-0ubuntu3",
+    "platform": "Linux"
+  },
+  {
+    "file": "duktape_2.7.0+tests.orig.tar.xz",
+    "sha256": "012fe77bffc8daf8f68c6932c1c926ce155c09aed9a3705fb4606c19bfd093fd",
+    "bytes": 14764880,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/duktape/duktape_2.7.0+tests.orig.tar.xz",
+    "project": "duktape",
+    "version": "2.7.0+tests-0ubuntu3",
+    "platform": "Linux"
+  },
+  {
+    "file": "e2fsprogs_1.47.0-2.4~exp1ubuntu4.1.debian.tar.xz",
+    "sha256": "26b381ec175ff52d1cc2fd1b217f84b9e1d7d33a58dcbaf8942115dd27a03f84",
+    "bytes": 90580,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1.debian.tar.xz",
+    "project": "e2fsprogs",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "e2fsprogs_1.47.0-2.4~exp1ubuntu4.1.dsc",
+    "sha256": "215fe7b95c246894654c59a01514dfdc16ec17a0dcb09dc7a7c1ec1246ed4964",
+    "bytes": 3294,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.0-2.4~exp1ubuntu4.1.dsc",
+    "project": "e2fsprogs",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "e2fsprogs_1.47.0.orig.tar.gz",
+    "sha256": "6667afde56eef0c6af26684974400e4d2288ea49e9441bf5e6229195d51a3578",
+    "bytes": 9637717,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.0.orig.tar.gz",
+    "project": "e2fsprogs",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "e2fsprogs_1.47.0.orig.tar.gz.asc",
+    "sha256": "704928204a52ddaa0ac8ef549c1bfba3c38e66c361d3853c8a4c38e6082b90f1",
+    "bytes": 488,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.0.orig.tar.gz.asc",
+    "project": "e2fsprogs",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "glib2.0_2.80.0-6ubuntu3.8.debian.tar.xz",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glib2.0/2.80.0-6ubuntu3.8/glib2.0_2.80.0-6ubuntu3.8.debian.tar.xz",
+    "sha256": "3ee18682434b0213fbc7f5892527f748810a657aba2353d660c5eb30ed1656f0",
+    "project": "glib2.0",
+    "version": "2.80.0-6ubuntu3.8",
+    "platform": "Linux",
+    "bytes": 166540,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "glib2.0_2.80.0-6ubuntu3.8.dsc",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glib2.0/2.80.0-6ubuntu3.8/glib2.0_2.80.0-6ubuntu3.8.dsc",
+    "sha256": "d44112b09956f61ffd5790a1a40e42558dca287052a945078cffff9b2490ee84",
+    "project": "glib2.0",
+    "version": "2.80.0-6ubuntu3.8",
+    "platform": "Linux",
+    "bytes": 4542,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "glib2.0_2.80.0.orig-unicode-data.tar.xz",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glib2.0/2.80.0-6ubuntu3.8/glib2.0_2.80.0.orig-unicode-data.tar.xz",
+    "sha256": "38680f78a0ae6258826418cb5096c19ae3566ba8fee0a2112a0ec40056e58729",
+    "project": "glib2.0",
+    "version": "2.80.0-6ubuntu3.8",
+    "platform": "Linux",
+    "bytes": 263364,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "glib2.0_2.80.0.orig.tar.xz",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/glib2.0/2.80.0-6ubuntu3.8/glib2.0_2.80.0.orig.tar.xz",
+    "sha256": "8228a92f92a412160b139ae68b6345bd28f24434a7b5af150ebe21ff587a561d",
+    "project": "glib2.0",
+    "version": "2.80.0-6ubuntu3.8",
+    "platform": "Linux",
+    "bytes": 5510536,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "gmp_6.3.0+dfsg-2ubuntu6.1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg-2ubuntu6.1.debian.tar.xz",
+    "sha256": "0a7592ee94876fcc0dba60c9a9fba806a72752c104c04d553803e1b7a97026a3",
+    "project": "gmp",
+    "version": "2:6.3.0+dfsg-2ubuntu6.1",
+    "platform": "Linux",
+    "bytes": 38908,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "gmp_6.3.0+dfsg-2ubuntu6.1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg-2ubuntu6.1.dsc",
+    "sha256": "7fdd2464ee453296e33598dad6f84dd489640c08f50552389469bcf90537582e",
+    "project": "gmp",
+    "version": "2:6.3.0+dfsg-2ubuntu6.1",
+    "platform": "Linux",
+    "bytes": 2345,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "gmp_6.3.0+dfsg.orig.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg.orig.tar.xz",
+    "sha256": "bd2966e6d277f79328e894a5a9f3ba3fbf2ed2be81def5f48623e30c23fb1572",
+    "project": "gmp",
+    "version": "2:6.3.0+dfsg-2ubuntu6.1",
+    "platform": "Linux",
+    "bytes": 1870556,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "gnutls28_3.8.3-1.1ubuntu3.4.debian.tar.xz",
+    "sha256": "2839cedf1673eaa7c4183dd89e1f33b7144707d67e50803c706253b6dfff1fae",
+    "bytes": 100104,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnutls28/3.8.3-1.1ubuntu3.4/gnutls28_3.8.3-1.1ubuntu3.4.debian.tar.xz",
+    "project": "gnutls28",
+    "version": "3.8.3-1.1ubuntu3.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "gnutls28_3.8.3-1.1ubuntu3.4.dsc",
+    "sha256": "135c8c444bf9e4fe23d358878c0ba39b4a4abbeb3f310f869fd3a4ab548af42e",
+    "bytes": 3397,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnutls28/3.8.3-1.1ubuntu3.4/gnutls28_3.8.3-1.1ubuntu3.4.dsc",
+    "project": "gnutls28",
+    "version": "3.8.3-1.1ubuntu3.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "gnutls28_3.8.3.orig.tar.xz",
+    "sha256": "f74fc5954b27d4ec6dfbb11dea987888b5b124289a3703afcada0ee520f4173e",
+    "bytes": 6463720,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnutls28/3.8.3-1.1ubuntu3.4/gnutls28_3.8.3.orig.tar.xz",
+    "project": "gnutls28",
+    "version": "3.8.3-1.1ubuntu3.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "gnutls28_3.8.3.orig.tar.xz.asc",
+    "sha256": "b2b90d225728890b0e2aa7c05e5f25f8ba1282821b46e72cd99f0c732b639cef",
+    "bytes": 854,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnutls28/3.8.3-1.1ubuntu3.4/gnutls28_3.8.3.orig.tar.xz.asc",
+    "project": "gnutls28",
+    "version": "3.8.3-1.1ubuntu3.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "keyutils_1.6.3-3build1.debian.tar.xz",
+    "sha256": "71904f9f862c496333fd04c7af70c15b42198b90b41f460c501c80e86c3f1d3d",
+    "bytes": 13456,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.6.3-3build1.debian.tar.xz",
+    "project": "keyutils",
+    "version": "1.6.3-3build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "keyutils_1.6.3-3build1.dsc",
+    "sha256": "d81679165d93bfcadd5bf3fdca123ce0e4562e2ad9712aa2b9d8c2d1c701324d",
+    "bytes": 2211,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.6.3-3build1.dsc",
+    "project": "keyutils",
+    "version": "1.6.3-3build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "keyutils_1.6.3.orig.tar.gz",
+    "sha256": "a61d5706136ae4c05bd48f86186bcfdbd88dd8bd5107e3e195c924cfc1b39bb4",
+    "bytes": 137022,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.6.3.orig.tar.gz",
+    "project": "keyutils",
+    "version": "1.6.3-3build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "krb5_1.20.1-6ubuntu2.6.debian.tar.xz",
+    "sha256": "58e9a5265de110bcebfaf1f88efc384673508302abed9ec189e2f8f9053abe70",
+    "bytes": 122284,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.6/krb5_1.20.1-6ubuntu2.6.debian.tar.xz",
+    "project": "krb5",
+    "version": "1.20.1-6ubuntu2.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "krb5_1.20.1-6ubuntu2.6.dsc",
+    "sha256": "52ce15dc89411879dc429344ae34ceec3f6301d425257b858804cf8baa8a4c13",
+    "bytes": 4125,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.6/krb5_1.20.1-6ubuntu2.6.dsc",
+    "project": "krb5",
+    "version": "1.20.1-6ubuntu2.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "krb5_1.20.1.orig.tar.gz",
+    "sha256": "704aed49b19eb5a7178b34b2873620ec299db08752d6a8574f95d41879ab8851",
+    "bytes": 8661660,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.6/krb5_1.20.1.orig.tar.gz",
+    "project": "krb5",
+    "version": "1.20.1-6ubuntu2.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "krb5_1.20.1.orig.tar.gz.asc",
+    "sha256": "2afeec5dbc586cc40b7975645e02b4c41c4d719dd02213e828c72d8239d55666",
+    "bytes": 833,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/krb5/1.20.1-6ubuntu2.6/krb5_1.20.1.orig.tar.gz.asc",
+    "project": "krb5",
+    "version": "1.20.1-6ubuntu2.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "libffi_3.4.6-1build1.debian.tar.xz",
+    "sha256": "9d8712818b833baf002a2413552194b8770800cb20b802ba1d3714156eba14fe",
+    "bytes": 10736,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi_3.4.6-1build1.debian.tar.xz",
+    "project": "libffi",
+    "version": "3.4.6-1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libffi_3.4.6-1build1.dsc",
+    "sha256": "a7a2c320c04149192a6dd78df8be28b2b27fd38e48d76f2ee6ba0c19ae0758f6",
+    "bytes": 2055,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi_3.4.6-1build1.dsc",
+    "project": "libffi",
+    "version": "3.4.6-1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libffi_3.4.6.orig.tar.gz",
+    "sha256": "9ac790464c1eb2f5ab5809e978a1683e9393131aede72d1b0a0703771d3c6cda",
+    "bytes": 598175,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi_3.4.6.orig.tar.gz",
+    "project": "libffi",
+    "version": "3.4.6-1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libgcrypt20_1.10.3-2build1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3-2build1.debian.tar.xz",
+    "sha256": "0082b34a4738355c3f79fa4f88e5b5f49c2ed1394d025fbee2e6f167aa38028f",
+    "project": "libgcrypt20",
+    "version": "1.10.3-2build1",
+    "platform": "Linux",
+    "bytes": 36604,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libgcrypt20_1.10.3-2build1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3-2build1.dsc",
+    "sha256": "ec068c9e68d41b66abb15a30524a846c1ac7a41c40168ad280dcb2f3e2ff1765",
+    "project": "libgcrypt20",
+    "version": "1.10.3-2build1",
+    "platform": "Linux",
+    "bytes": 2931,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "libgcrypt20_1.10.3.orig.tar.bz2",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3.orig.tar.bz2",
+    "sha256": "8b0870897ac5ac67ded568dcfadf45969cfa8a6beb0fd60af2a9eadc2a3272aa",
+    "project": "libgcrypt20",
+    "version": "1.10.3-2build1",
+    "platform": "Linux",
+    "bytes": 3783827,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libgcrypt20_1.10.3.orig.tar.bz2.asc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3.orig.tar.bz2.asc",
+    "sha256": "f02a5f961b89c034a78decbb355ea5a8d9356df5a9636dec53ae548d7d814b14",
+    "project": "libgcrypt20",
+    "version": "1.10.3-2build1",
+    "platform": "Linux",
+    "bytes": 390,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libgpg-error_1.47-3build2.1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47-3build2.1.debian.tar.xz",
+    "sha256": "f02a079a6ddf9930659c3402820b6bd190687e8f1c223f340c965a9da74abcd5",
+    "project": "libgpg-error",
+    "version": "1.47-3build2.1",
+    "platform": "Linux",
+    "bytes": 18776,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libgpg-error_1.47-3build2.1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47-3build2.1.dsc",
+    "sha256": "3c8abf463c9ade945fe2e9d87c4aa2bff0026964207b07e99432d9ef6d9436d8",
+    "project": "libgpg-error",
+    "version": "1.47-3build2.1",
+    "platform": "Linux",
+    "bytes": 3007,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "libgpg-error_1.47.orig.tar.bz2",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47.orig.tar.bz2",
+    "sha256": "9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb",
+    "project": "libgpg-error",
+    "version": "1.47-3build2.1",
+    "platform": "Linux",
+    "bytes": 1020862,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libgpg-error_1.47.orig.tar.bz2.asc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47.orig.tar.bz2.asc",
+    "sha256": "6ab547bf020761e1df80b08335773a91c345ff2c1344f15b1f7d195293ab21a5",
+    "project": "libgpg-error",
+    "version": "1.47-3build2.1",
+    "platform": "Linux",
+    "bytes": 228,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "libidn2_2.3.7-2build1.1.debian.tar.xz",
+    "sha256": "50d3154a3a5b3506aa340c1784f96bfe0f4c5608e2a1a9dd265aa204da4ef327",
+    "bytes": 16468,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.3.7-2build1.1.debian.tar.xz",
+    "project": "libidn2",
+    "version": "2.3.7-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libidn2_2.3.7-2build1.1.dsc",
+    "sha256": "fa2970145d391578511ef78bc74a9ba7a57cff510d9e5fba39520f63b023986c",
+    "bytes": 2651,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.3.7-2build1.1.dsc",
+    "project": "libidn2",
+    "version": "2.3.7-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libidn2_2.3.7.orig.tar.gz",
+    "sha256": "4c21a791b610b9519b9d0e12b8097bf2f359b12f8dd92647611a929e6bfd7d64",
+    "bytes": 2155214,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.3.7.orig.tar.gz",
+    "project": "libidn2",
+    "version": "2.3.7-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libidn2_2.3.7.orig.tar.gz.asc",
+    "sha256": "d4e78fc1c5a5c35980be3a04dd864574f450d55921360b0aa19326c75ada4a98",
+    "bytes": 228,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.3.7.orig.tar.gz.asc",
+    "project": "libidn2",
+    "version": "2.3.7-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libproxy_0.5.4-4build1.debian.tar.xz",
+    "sha256": "d64cf4ebb48bd4aa333527bcfe196d8a95f741415ba928ea9b59d63f27a33790",
+    "bytes": 15932,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libproxy/libproxy_0.5.4-4build1.debian.tar.xz",
+    "project": "libproxy",
+    "version": "0.5.4-4build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libproxy_0.5.4-4build1.dsc",
+    "sha256": "1e068af6351dd9fd7e7d2e7ba743cdfc33aaac32fb13f2ee0244246c5be8297f",
+    "bytes": 3051,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libproxy/libproxy_0.5.4-4build1.dsc",
+    "project": "libproxy",
+    "version": "0.5.4-4build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libproxy_0.5.4.orig.tar.gz",
+    "sha256": "a6e2220349b2025de9b6d9d7f8bb347bf0c728f02a921761ad5f9f66c7436de9",
+    "bytes": 60605,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libproxy/libproxy_0.5.4.orig.tar.gz",
+    "project": "libproxy",
+    "version": "0.5.4-4build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libpsl_0.21.2-1.1build1.debian.tar.xz",
+    "sha256": "70e66bec75c564eee5ce7b1b422a51753601bd64d9738b68551127093321eabc",
+    "bytes": 12244,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpsl/libpsl_0.21.2-1.1build1.debian.tar.xz",
+    "project": "libpsl",
+    "version": "0.21.2-1.1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libpsl_0.21.2-1.1build1.dsc",
+    "sha256": "bc742d8be05151fc4e5a5e20f48a03a276dd3094286861f19da1346a0dd761b4",
+    "bytes": 2425,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpsl/libpsl_0.21.2-1.1build1.dsc",
+    "project": "libpsl",
+    "version": "0.21.2-1.1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libpsl_0.21.2.orig.tar.xz",
+    "sha256": "11e34380f2c81d6e72c710464aae3b680df4ddcc1007826c630fb03c7ca6aa54",
+    "bytes": 1870352,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpsl/libpsl_0.21.2.orig.tar.xz",
+    "project": "libpsl",
+    "version": "0.21.2-1.1build1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libselinux_3.5-2ubuntu2.1.debian.tar.xz",
+    "sha256": "13e47e0983f59235e34f5abe07a2a0d1af3dd2d255962c6a50fac4698c3fe891",
+    "bytes": 38112,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.5-2ubuntu2.1.debian.tar.xz",
+    "project": "libselinux",
+    "version": "3.5-2ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libselinux_3.5-2ubuntu2.1.dsc",
+    "sha256": "96134581a745ed85b3d5f1c24cdd88fa7d3e29548c0f80a683094ed886b7f150",
+    "bytes": 3098,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.5-2ubuntu2.1.dsc",
+    "project": "libselinux",
+    "version": "3.5-2ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libselinux_3.5.orig.tar.gz",
+    "sha256": "9a3a3705ac13a2ccca2de6d652b6356fead10f36fb33115c185c5ccdf29eec19",
+    "bytes": 211453,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.5.orig.tar.gz",
+    "project": "libselinux",
+    "version": "3.5-2ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libselinux_3.5.orig.tar.gz.asc",
+    "sha256": "fd37d441e0c08cabe9ac8f7815f52355bab2011549ec5792424fe18be9e1e015",
+    "bytes": 981,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.5.orig.tar.gz.asc",
+    "project": "libselinux",
+    "version": "3.5-2ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libssh_0.10.6-2ubuntu0.4.debian.tar.xz",
+    "sha256": "13cb7f1a5b294bf5b0a9970acf22a7ccdfca5be546495b930960f0508725e4b9",
+    "bytes": 56400,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/libs/libssh/libssh_0.10.6-2ubuntu0.4.debian.tar.xz",
+    "project": "libssh",
+    "version": "0.10.6-2ubuntu0.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "libssh_0.10.6-2ubuntu0.4.dsc",
+    "sha256": "dec8669834a233aa336e7607395dbd8c5946f1f83cb6792772bf0c2e09825f7b",
+    "bytes": 2723,
+    "kind": "distribution-source-descriptor",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/libs/libssh/libssh_0.10.6-2ubuntu0.4.dsc",
+    "project": "libssh",
+    "version": "0.10.6-2ubuntu0.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "libssh_0.10.6.orig.tar.xz",
+    "sha256": "1861d498f5b6f1741b6abc73e608478491edcf9c9d4b6630eef6e74596de9dc1",
+    "bytes": 561036,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/libs/libssh/libssh_0.10.6.orig.tar.xz",
+    "project": "libssh",
+    "version": "0.10.6-2ubuntu0.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "libssh_0.10.6.orig.tar.xz.asc",
+    "sha256": "140420406d7796548b0beaf736e73864c32291787cf2bd3983fdbc41741494ae",
+    "bytes": 833,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/libs/libssh/libssh_0.10.6.orig.tar.xz.asc",
+    "project": "libssh",
+    "version": "0.10.6-2ubuntu0.4",
+    "platform": "Linux"
+  },
+  {
+    "file": "libtasn1-6_4.19.0-3ubuntu0.24.04.1.debian.tar.xz",
+    "sha256": "85ffa2b28b2f8b81a45c885a8447bab7a5cc38d3c98c477a362d174a44b5380a",
+    "bytes": 24752,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libtasn1-6/4.19.0-3ubuntu0.24.04.1/libtasn1-6_4.19.0-3ubuntu0.24.04.1.debian.tar.xz",
+    "project": "libtasn1-6",
+    "version": "4.19.0-3ubuntu0.24.04.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libtasn1-6_4.19.0-3ubuntu0.24.04.1.dsc",
+    "sha256": "57fe3e1b963943f035b9fbd7eb03f0e7c4546517f83cdbef5f5be1fcb4b353f7",
+    "bytes": 2846,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libtasn1-6/4.19.0-3ubuntu0.24.04.1/libtasn1-6_4.19.0-3ubuntu0.24.04.1.dsc",
+    "project": "libtasn1-6",
+    "version": "4.19.0-3ubuntu0.24.04.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libtasn1-6_4.19.0.orig.tar.gz",
+    "sha256": "1613f0ac1cf484d6ec0ce3b8c06d56263cc7242f1c23b30d82d23de345a63f7a",
+    "bytes": 1786576,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libtasn1-6/4.19.0-3ubuntu0.24.04.1/libtasn1-6_4.19.0.orig.tar.gz",
+    "project": "libtasn1-6",
+    "version": "4.19.0-3ubuntu0.24.04.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libtasn1-6_4.19.0.orig.tar.gz.asc",
+    "sha256": "8410c0c004f3509c218a98b276b3308b9c46f48068e8b1a6d9ebfd61ea9f357a",
+    "bytes": 228,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libtasn1-6/4.19.0-3ubuntu0.24.04.1/libtasn1-6_4.19.0.orig.tar.gz.asc",
+    "project": "libtasn1-6",
+    "version": "4.19.0-3ubuntu0.24.04.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libunistring_1.1-2build1.1.debian.tar.xz",
+    "sha256": "06254c8f2ad989bd8ff267fd921d6711fbc0390ff10b99bc3be09fe870baab5e",
+    "bytes": 14188,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_1.1-2build1.1.debian.tar.xz",
+    "project": "libunistring",
+    "version": "1.1-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libunistring_1.1-2build1.1.dsc",
+    "sha256": "496ec65625b57a9c5cd0577843814cbd4701ab123a6146a56053dcc9463ae09e",
+    "bytes": 2292,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_1.1-2build1.1.dsc",
+    "project": "libunistring",
+    "version": "1.1-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libunistring_1.1.orig.tar.xz",
+    "sha256": "827c1eb9cb6e7c738b171745dac0888aa58c5924df2e59239318383de0729b98",
+    "bytes": 2397676,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_1.1.orig.tar.xz",
+    "project": "libunistring",
+    "version": "1.1-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "libunistring_1.1.orig.tar.xz.asc",
+    "sha256": "dadae6c38f85f9e8776231436c601c386924ceb44d511456c61c9be73608933d",
+    "bytes": 833,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_1.1.orig.tar.xz.asc",
+    "project": "libunistring",
+    "version": "1.1-2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "mpfr4_4.2.1-1build1.1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mpfr4/mpfr4_4.2.1-1build1.1.debian.tar.xz",
+    "sha256": "55770c471715c710690129e45c627d77da05547a8f6faee81dd420a9b2b5fded",
+    "project": "mpfr4",
+    "version": "4.2.1-1build1.1",
+    "platform": "Linux",
+    "bytes": 12760,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "mpfr4_4.2.1-1build1.1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mpfr4/mpfr4_4.2.1-1build1.1.dsc",
+    "sha256": "9adabba2fbe45f0705b630b9b225752d945718ed4742b1c5b9fb1aa0fbcd0766",
+    "project": "mpfr4",
+    "version": "4.2.1-1build1.1",
+    "platform": "Linux",
+    "bytes": 2045,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "mpfr4_4.2.1.orig.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mpfr4/mpfr4_4.2.1.orig.tar.xz",
+    "sha256": "277807353a6726978996945af13e52829e3abd7a9a5b7fb2793894e18f1fcbb2",
+    "project": "mpfr4",
+    "version": "4.2.1-1build1.1",
+    "platform": "Linux",
+    "bytes": 1493608,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "nettle_3.9.1-2.2build1.1.debian.tar.xz",
+    "sha256": "be4ad3b97b32c4c4bacc10aa4caef2f3fa0840c21c642407fc3d48c4535b7c5e",
+    "bytes": 24848,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/nettle/nettle_3.9.1-2.2build1.1.debian.tar.xz",
+    "project": "nettle",
+    "version": "3.9.1-2.2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "nettle_3.9.1-2.2build1.1.dsc",
+    "sha256": "db439554d51174b657660a2a47d3d4128838e063f3c9c7da67bb3fe91931d1d2",
+    "bytes": 2325,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/nettle/nettle_3.9.1-2.2build1.1.dsc",
+    "project": "nettle",
+    "version": "3.9.1-2.2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "nettle_3.9.1.orig.tar.gz",
+    "sha256": "ccfeff981b0ca71bbd6fbcb054f407c60ffb644389a5be80d6716d5b550c6ce3",
+    "bytes": 2396741,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/nettle/nettle_3.9.1.orig.tar.gz",
+    "project": "nettle",
+    "version": "3.9.1-2.2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "nettle_3.9.1.orig.tar.gz.asc",
+    "sha256": "9746017a1a7fe60aad4b929ea592bc6ac51e12ea7179f289944eb44828d958af",
+    "bytes": 573,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/nettle/nettle_3.9.1.orig.tar.gz.asc",
+    "project": "nettle",
+    "version": "3.9.1-2.2build1.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "nghttp2_1.59.0-1ubuntu0.2.debian.tar.xz",
+    "sha256": "20392558c0dbdfa6d60efe56e6c3c958bffe1d52bc7569c7ac1be43f729e38ca",
+    "bytes": 14204,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nghttp2/1.59.0-1ubuntu0.2/nghttp2_1.59.0-1ubuntu0.2.debian.tar.xz",
+    "project": "nghttp2",
+    "version": "1.59.0-1ubuntu0.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "nghttp2_1.59.0-1ubuntu0.2.dsc",
+    "sha256": "64378996facf9ded9c4088ee54254048cba5b3c191f177867363652e8bb0b6d9",
+    "bytes": 2624,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nghttp2/1.59.0-1ubuntu0.2/nghttp2_1.59.0-1ubuntu0.2.dsc",
+    "project": "nghttp2",
+    "version": "1.59.0-1ubuntu0.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "nghttp2_1.59.0.orig.tar.gz",
+    "sha256": "0dd5c980f1262ff5f03676fd99f46f250b66c842f7d864fa1ca9f8453e5f8868",
+    "bytes": 1055492,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/nghttp2/1.59.0-1ubuntu0.2/nghttp2_1.59.0.orig.tar.gz",
+    "project": "nghttp2",
+    "version": "1.59.0-1ubuntu0.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "openldap_2.6.7+dfsg-1~exp1ubuntu8.2.debian.tar.xz",
+    "sha256": "03ea2415780fcb27aef9b0ab63f170a698f8b7ba83fd4224580120b429606d5f",
+    "bytes": 186792,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openldap/2.6.7+dfsg-1~exp1ubuntu8.2/openldap_2.6.7+dfsg-1~exp1ubuntu8.2.debian.tar.xz",
+    "project": "openldap",
+    "version": "2.6.7+dfsg-1~exp1ubuntu8.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "openldap_2.6.7+dfsg-1~exp1ubuntu8.2.dsc",
+    "sha256": "2fe820de72e4825757f6ab35c6f34c4f0e4e2c291cfb9b9d35b80bb9ae53b644",
+    "bytes": 3488,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openldap/2.6.7+dfsg-1~exp1ubuntu8.2/openldap_2.6.7+dfsg-1~exp1ubuntu8.2.dsc",
+    "project": "openldap",
+    "version": "2.6.7+dfsg-1~exp1ubuntu8.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "openldap_2.6.7+dfsg.orig.tar.xz",
+    "sha256": "ac9e26700ff8dd10181944d3e61014df5e3db601dd05655966be46757710d6df",
+    "bytes": 3774648,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openldap/2.6.7+dfsg-1~exp1ubuntu8.2/openldap_2.6.7+dfsg.orig.tar.xz",
+    "project": "openldap",
+    "version": "2.6.7+dfsg-1~exp1ubuntu8.2",
+    "platform": "Linux"
+  },
+  {
+    "file": "openssl_3.0.13-0ubuntu3.6.debian.tar.xz",
+    "sha256": "90d26d623ef6e8fe23ab0829e80b863844572f269ad43d6a9d91da08103f90b5",
+    "bytes": 169500,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.6/openssl_3.0.13-0ubuntu3.6.debian.tar.xz",
+    "project": "openssl",
+    "version": "3.0.13-0ubuntu3.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "openssl_3.0.13-0ubuntu3.6.dsc",
+    "sha256": "0417388b67222d606895b1b900db790312ad2ce3e168a9ee9f3853c03f58f95e",
+    "bytes": 2512,
+    "kind": "distribution-source-descriptor",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.6/openssl_3.0.13-0ubuntu3.6.dsc",
+    "project": "openssl",
+    "version": "3.0.13-0ubuntu3.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "openssl_3.0.13.orig.tar.gz",
+    "sha256": "88525753f79d3bec27d2fa7c66aa0b92b3aa9498dafd93d7cfa4b3780cdae313",
+    "bytes": 15294843,
+    "kind": "distribution-source-archive",
+    "url": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/openssl/3.0.13-0ubuntu3.6/openssl_3.0.13.orig.tar.gz",
+    "project": "openssl",
+    "version": "3.0.13-0ubuntu3.6",
+    "platform": "Linux"
+  },
+  {
+    "file": "p11-kit_0.25.3-4ubuntu2.1.debian.tar.xz",
+    "sha256": "f6e9bd39af9478e27900e9b557dc9352f5dcebb2da3ad8a0193686ebfe322cb2",
+    "bytes": 26028,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/p/p11-kit/p11-kit_0.25.3-4ubuntu2.1.debian.tar.xz",
+    "project": "p11-kit",
+    "version": "0.25.3-4ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "p11-kit_0.25.3-4ubuntu2.1.dsc",
+    "sha256": "8c97d633fe815e73655b4d4b25a997a967eebca33b42db38a07b706db692a13c",
+    "bytes": 2405,
+    "kind": "distribution-source-descriptor",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/p/p11-kit/p11-kit_0.25.3-4ubuntu2.1.dsc",
+    "project": "p11-kit",
+    "version": "0.25.3-4ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "p11-kit_0.25.3.orig.tar.xz",
+    "sha256": "d8ddce1bb7e898986f9d250ccae7c09ce14d82f1009046d202a0eb1b428b2adc",
+    "bytes": 991528,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/p/p11-kit/p11-kit_0.25.3.orig.tar.xz",
+    "project": "p11-kit",
+    "version": "0.25.3-4ubuntu2.1",
+    "platform": "Linux"
+  },
+  {
+    "file": "qt6-base_6.4.2+dfsg-21.1build5.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-base_6.4.2+dfsg-21.1build5.debian.tar.xz",
+    "sha256": "80dcad2d79766b9dabe69b507f4622e7225be34d2c0ca6bdab77791f720f21fd",
+    "project": "qt6-base",
+    "version": "6.4.2+dfsg-21.1build5",
+    "platform": "Linux",
+    "bytes": 191848,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "qt6-base_6.4.2+dfsg-21.1build5.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-base_6.4.2+dfsg-21.1build5.dsc",
+    "sha256": "a98b1b5a431df1c6e531f0abdc57b850f4b6da2dc6781e34953f0fc28f4e4c16",
+    "project": "qt6-base",
+    "version": "6.4.2+dfsg-21.1build5",
+    "platform": "Linux",
+    "bytes": 5316,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "qt6-base_6.4.2+dfsg.orig.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-base_6.4.2+dfsg.orig.tar.xz",
+    "sha256": "4f14b89a9463a540fd84a6718b8519a2297119b454ef547721015a9e9019ae9e",
+    "project": "qt6-base",
+    "version": "6.4.2+dfsg-21.1build5",
+    "platform": "Linux",
+    "bytes": 45943692,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "rtmpdump_2.4+20151223.gitfa8646d.1-2build7.debian.tar.xz",
+    "sha256": "bbc24a32c42f37238190944ecfc640387373d7dfa8e570fa23353d6a1f0e3d0b",
+    "bytes": 8464,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1-2build7.debian.tar.xz",
+    "project": "rtmpdump",
+    "version": "2.4+20151223.gitfa8646d.1-2build7",
+    "platform": "Linux"
+  },
+  {
+    "file": "rtmpdump_2.4+20151223.gitfa8646d.1-2build7.dsc",
+    "sha256": "076006f9c26e898a8da252ee8dbd6f04252833fac08898b9fd9344ccba848853",
+    "bytes": 2439,
+    "kind": "distribution-source-descriptor",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1-2build7.dsc",
+    "project": "rtmpdump",
+    "version": "2.4+20151223.gitfa8646d.1-2build7",
+    "platform": "Linux"
+  },
+  {
+    "file": "rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz",
+    "sha256": "5c032f5c8cc2937eb55a81a94effdfed3b0a0304b6376147b86f951e225e3ab5",
+    "bytes": 142213,
+    "kind": "distribution-source-archive",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz",
+    "project": "rtmpdump",
+    "version": "2.4+20151223.gitfa8646d.1-2build7",
+    "platform": "Linux"
+  },
+  {
+    "file": "systemd_255.4-1ubuntu8.17.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.17.debian.tar.xz",
+    "sha256": "4695ff34f83b1f7e6e02bf3cfac2e2a44ac76b6cfc5a38c0081bac6919d547bb",
+    "project": "systemd",
+    "version": "255.4-1ubuntu8.17",
+    "platform": "Linux",
+    "bytes": 272596,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "systemd_255.4-1ubuntu8.17.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.17.dsc",
+    "sha256": "8e5f4e5a7b7ee457214be1efd1ea1d380186c38b146d8c98af5da0f625d3c396",
+    "project": "systemd",
+    "version": "255.4-1ubuntu8.17",
+    "platform": "Linux",
+    "bytes": 7324,
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "systemd_255.4.orig.tar.gz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4.orig.tar.gz",
+    "sha256": "96e75bd08c57ad401677456fb88ef54a9f05bb1695693013bc6ecce839640fd5",
+    "project": "systemd",
+    "version": "255.4-1ubuntu8.17",
+    "platform": "Linux",
+    "bytes": 14952427,
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "util-linux_2.39.3-9ubuntu6.5.debian.tar.xz",
+    "sha256": "e0130fe89b648a42710af003c965f9622707c69045aab442d17e028e232f105c",
+    "bytes": 148016,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/u/util-linux/util-linux_2.39.3-9ubuntu6.5.debian.tar.xz",
+    "project": "util-linux",
+    "version": "2.39.3-9ubuntu6.5",
+    "platform": "Linux"
+  },
+  {
+    "file": "util-linux_2.39.3-9ubuntu6.5.dsc",
+    "sha256": "206b6fb92d3cb0f6b1a959a6173d81ebf4e0a340564378ac49667a16968578d8",
+    "bytes": 4726,
+    "kind": "distribution-source-descriptor",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/u/util-linux/util-linux_2.39.3-9ubuntu6.5.dsc",
+    "project": "util-linux",
+    "version": "2.39.3-9ubuntu6.5",
+    "platform": "Linux"
+  },
+  {
+    "file": "util-linux_2.39.3.orig.tar.xz",
+    "sha256": "7b6605e48d1a49f43cc4b4cfc59f313d0dd5402fa40b96810bd572e167dfed0f",
+    "bytes": 8526168,
+    "kind": "distribution-source-archive",
+    "url": "https://snapshot.ubuntu.com/ubuntu/20260828T000000Z/pool/main/u/util-linux/util-linux_2.39.3.orig.tar.xz",
+    "project": "util-linux",
+    "version": "2.39.3-9ubuntu6.5",
+    "platform": "Linux"
+  },
+  {
+    "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+    "sha256": "50950080874a6ec6780dd60c243e21d9cda9d736bb32bca98d16095d27cc01b5",
+    "bytes": 46930,
+    "project": "gcc-14",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "platform": "Linux",
+    "kind": "distribution-source-descriptor"
+  },
+  {
+    "file": "gcc-14_14.2.0.orig.tar.gz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0.orig.tar.gz",
+    "sha256": "768c314c11eeab56ccebb91eb42ec4a41122fa94f0d83400126401942622197b",
+    "bytes": 97158172,
+    "project": "gcc-14",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "platform": "Linux",
+    "kind": "distribution-source-archive"
+  },
+  {
+    "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+    "sha256": "cfece214c2fb790ef5f3baffb9a53e40618e7ae12d053610b251e94d77d08ade",
+    "bytes": 1950432,
+    "project": "gcc-14",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "platform": "Linux",
+    "kind": "distribution-source-archive"
+  }
+]

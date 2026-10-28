@@ -1,0 +1,560 @@
+[
+  {
+    "file": "msys2-recipes/qt6-base/003-adjust-qmake-conf-mingw.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/003-adjust-qmake-conf-mingw.patch",
+    "sha256": "68156b8b7717a0ce19c4b991942469171bfa048cd5c90765115a546e65669a1d",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 2056,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/004-qt-6.2.0-win32-g-Add-QMAKE_EXTENSION_IMPORTLIB-defaulting-to-.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/004-qt-6.2.0-win32-g-Add-QMAKE_EXTENSION_IMPORTLIB-defaulting-to-.patch",
+    "sha256": "ed5b61bcb367bbda459bec903d796ea45604278f577a988d602ade07ec6bf363",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 7486,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/005-qt-6.7.0-opengl-header.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/005-qt-6.7.0-opengl-header.patch",
+    "sha256": "a2afc74d181864409dc96eca368b647c0f79e25751db88e3263f2d1101edf8e4",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1356,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/006-qt-6.2.0-dont-add-resource-files-to-qmake-libs.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/006-qt-6.2.0-dont-add-resource-files-to-qmake-libs.patch",
+    "sha256": "4085a10b290b8e3d930de535cbad2ba3e643432cba433aa2b28fe664f86d38a3",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 432,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/008-freetype-fonts-fallback-dir.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/008-freetype-fonts-fallback-dir.patch",
+    "sha256": "e2fbd970a20773f0d914f6ffc96aafc8212192227577ec007a460e35398038bf",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1314,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/009-qfileinfo-undefine-mingw-stat.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/009-qfileinfo-undefine-mingw-stat.patch",
+    "sha256": "f4261d43a142a24e5fa3b23e25813754839db84078cc8c6dc611139bf531e64a",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 238,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/010-export-some-constexpr-variables.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/010-export-some-constexpr-variables.patch",
+    "sha256": "2cd0b791209d53ce5a0ff2afc76cb1aedbdc1a92fe406c27bc6e5cd2f4ed0ad4",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1614,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/011-qt6-windeployqt-fixes.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/011-qt6-windeployqt-fixes.patch",
+    "sha256": "9d9131f412f0505c38449718fcf2fcd4ae548563eb94b71d55c8238efffbbe5a",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1536,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/012-qt6-windeployqt-ignore-debug.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/012-qt6-windeployqt-ignore-debug.patch",
+    "sha256": "ce3449f8202766f1ceab9b44a0e94efdbb6b6a1c833381c93136a3786de1bea7",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 849,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/013-qt6-windeployqt-qmlimportscanner-path.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/013-qt6-windeployqt-qmlimportscanner-path.patch",
+    "sha256": "c4783da805c1189c747dc899fb4275a593b2e08522d3af88e74b3dec42d9b4fe",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 863,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/qt6-base/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-qt6-base/PKGBUILD",
+    "sha256": "42bd77bdf7d864af917e4cf415736a4f23ce708ef9809135125d64a6d9999c65",
+    "project": "qt6-base",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 9794,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/0002-disable_glib_compile_schemas_warning.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/0002-disable_glib_compile_schemas_warning.patch",
+    "sha256": "396c25cfd740ffbb72209133c7b9453173167577265a4bb14502678de8d5a8f9",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1299,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/0004-disable-explicit-ms-bitfields.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/0004-disable-explicit-ms-bitfields.patch",
+    "sha256": "48e94a9e61f8db9a2dc66556f12c725efe5e247a9ddc5b491f8cb8310a387293",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 494,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/PKGBUILD",
+    "sha256": "0ad17a7ab5835acc95990c1eba2d85f351a8df0604e528f23b4212402380430b",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 5284,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/gio-querymodules.hook.in",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/gio-querymodules.hook.in",
+    "sha256": "f18d27d98709dba8c5f9756672baaf0158fb4353c9edbdc2e80021f88ff34ced",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 293,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/glib-compile-schemas.hook.in",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/glib-compile-schemas.hook.in",
+    "sha256": "0c3d54636407e0e13429b73959cace626253cd772e1d4870de0fb92b0b99545a",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 408,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/pyscript2exe.py",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-glib2/pyscript2exe.py",
+    "sha256": "3c65bc3dd7337877e14b19bc7c42918bde664a11a860cfc0b9db891f8a1052db",
+    "project": "glib2",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 600,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/libiconv/0002-fix-cr-for-awk-in-configure.all.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-libiconv/0002-fix-cr-for-awk-in-configure.all.patch",
+    "sha256": "89d5c0f666e50a0186cfb142ba7b77e8fe1ac4d65bdfd9ae14ae8d2f0045a87c",
+    "project": "libiconv",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 415,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/libiconv/0003-add-cp65001-as-utf8-alias.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-libiconv/0003-add-cp65001-as-utf8-alias.patch",
+    "sha256": "cb2b1cca44c9b9bd11c3bd33997c10d22dff263542275324c88f34b59910ef87",
+    "project": "libiconv",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 518,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/libiconv/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-libiconv/PKGBUILD",
+    "sha256": "9b3212d06910560fb59e017e0b73a29d392a5082d3a47a613e61509bd7dcd475",
+    "project": "libiconv",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 4906,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/libiconv/fix-pointer-buf.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-libiconv/fix-pointer-buf.patch",
+    "sha256": "6b6e2393840f4dc6067587165777b1a07978f4c05247d7c1010a45ad251bbeeb",
+    "project": "libiconv",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1664,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/libiconv/iconv.pc",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-libiconv/iconv.pc",
+    "sha256": "56e7ec406bf42eb66b1d972f20d229f7a76ba00c38c7b4403bf348875704baae",
+    "project": "libiconv",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 240,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/0005-Fix-compilation-of-pthread_sigmask.c.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/0005-Fix-compilation-of-pthread_sigmask.c.patch",
+    "sha256": "cbc2f533012d646521afa20f8b256917fce040741ff42cf53fb6dd7123a6670a",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 453,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/0021-replace-fsync.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/0021-replace-fsync.patch",
+    "sha256": "380dbddee2f9e2feee4c1435e8a942b5d11d0125e60c3350ebb10c19b19011aa",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 551,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/0022-libasprintf.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/0022-libasprintf.patch",
+    "sha256": "c354f6a7021069c99b90f1c6d6f6a4ccf40a01e9f6742b866df2b5a7286cb868",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 983,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/0024-disable-gnu-format.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/0024-disable-gnu-format.patch",
+    "sha256": "ce7ccf6dd3a492cab322253cd67310899b546eccc25821c25cbc047a1a984633",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 704,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/0030-fix-build-with-mingw-w64-clang.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/0030-fix-build-with-mingw-w64-clang.patch",
+    "sha256": "9b1b4f0c65b3bc1a3103c921a02c203cecf533d145f0bd90023406e760f81749",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 367,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/122-Use-LF-as-newline-in-envsubst.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/122-Use-LF-as-newline-in-envsubst.patch",
+    "sha256": "ec39103d851262c02c27b7038f3c538e03afaefc6aa050311d62519d192ff38c",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 863,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gettext/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gettext/PKGBUILD",
+    "sha256": "853ef80a50588f29355722a4513f24cf1a5f8de06e0b5ee326580464db539741",
+    "project": "gettext",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 8260,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gmp/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gmp/PKGBUILD",
+    "sha256": "f2df0131077241974efc2680d9afe672dc217c91a3fa645b63b0cc162a2a7ae9",
+    "project": "gmp",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 2330,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gmp/do-not-use-dllimport.diff",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gmp/do-not-use-dllimport.diff",
+    "sha256": "385ab704f82c47f3aecc9141f43c96e7b8de2bf0e654dc457ce0f1a039db2c68",
+    "project": "gmp",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 491,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/gmp/gmp-staticlib.diff",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gmp/gmp-staticlib.diff",
+    "sha256": "7c3cde2634baa2cb1c31404bbfed2d8d7ba33556971ac842a08f2e87667849ab",
+    "project": "gmp",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 900,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/mpfr/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-mpfr/PKGBUILD",
+    "sha256": "6ffc49a5e6194f63c2514fa789b849a572de8b6b84e0cfa6b085397506308dac",
+    "project": "mpfr",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 1555,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/mpfr/patches.diff",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-mpfr/patches.diff",
+    "sha256": "a9099cee74188d5f522b7b3fca0097196c6dd38126f8f042d233010cbf92e8d0",
+    "project": "mpfr",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+    "platform": "Windows",
+    "bytes": 80585,
+    "kind": "MSYS2 build recipe or patch"
+  },
+  {
+    "file": "msys2-recipes/glib2/7e69f88480a4bf8d9653efd0310c4c25390a0c8b.patch",
+    "url": "https://gitlab.gnome.org/GNOME/glib/-/commit/7e69f88480a4bf8d9653efd0310c4c25390a0c8b.patch",
+    "sha256": "4902e5748c6954ed38f690f27954db96709e705ff83bbdb4ebf7392a21f65824",
+    "project": "glib2",
+    "platform": "Windows",
+    "bytes": 1012,
+    "kind": "upstream patch referenced by MSYS2 recipe"
+  },
+  {
+    "file": "msys2-recipes/gcc/gdbinit",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/gdbinit",
+    "sha256": "bce81824fc89e5e62cca350de4c17a27e27a18a1a1ad5ca3492aec1fc5af3234",
+    "bytes": 180,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0002-i386-Keep-SEH-enabled-for-Win64-sysv_abi-functions.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0002-i386-Keep-SEH-enabled-for-Win64-sysv_abi-functions.patch",
+    "sha256": "fdf4e90a56fc195a8f9a969af39335f158a29f29d42d33c00d908fc47cf5ad24",
+    "bytes": 3389,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0003-Windows-Follow-Posix-dir-exists-semantics-more-close.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0003-Windows-Follow-Posix-dir-exists-semantics-more-close.patch",
+    "sha256": "3fc35067823f87e48dd3bfd265e7593000dc110fa9ad5f16c81b896765fc897a",
+    "bytes": 4138,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0007-Build-EXTRA_GNATTOOLS-for-Ada.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0007-Build-EXTRA_GNATTOOLS-for-Ada.patch",
+    "sha256": "90d5cb570083f9dea4ac0f0f87e3e8d2230f5052e6f9b946061a20a224a9d195",
+    "bytes": 1267,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0008-Prettify-linking-no-undefined.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0008-Prettify-linking-no-undefined.patch",
+    "sha256": "8d2d53ae26b777d90189240494de1b895c5efa1ebdcdfbf5774f29fc742499d9",
+    "bytes": 1404,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0011-Enable-shared-gnat-implib.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0011-Enable-shared-gnat-implib.patch",
+    "sha256": "5ef4148acc4a2b7ed648d4fe75fab5545e84b4b93a12d6ba4e4ea6061dd635fa",
+    "bytes": 1474,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0012-Handle-spaces-in-path-for-default-manifest.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0012-Handle-spaces-in-path-for-default-manifest.patch",
+    "sha256": "e98805ead7d78ee2a92f237894c4b2b7ddc1688e1b517d8c04f28d440202e40f",
+    "bytes": 2243,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0014-gcc-9-branch-clone_function_name_1-Retain-any-stdcall-suffix.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0014-gcc-9-branch-clone_function_name_1-Retain-any-stdcall-suffix.patch",
+    "sha256": "fd9bdecb2bbc4796bbc9f00b708dac42ef9e3464a06d6d27e5475cee117de5be",
+    "bytes": 3690,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0020-libgomp-Don-t-hard-code-MS-printf-attributes.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0020-libgomp-Don-t-hard-code-MS-printf-attributes.patch",
+    "sha256": "ad1f7b5e7afaaec008b7cbd14feea13a10989fa91bda7003af72d457619bb199",
+    "bytes": 1608,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0021-bootstrap-gnattools-Pass-target-sysroot-flags-to-boo.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0021-bootstrap-gnattools-Pass-target-sysroot-flags-to-boo.patch",
+    "sha256": "76455c46eec4df95a80bbf7e5bcd2d165f300976c79c1baf0bf7ed20f000cdd4",
+    "bytes": 5086,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0022-mingw-Remove-outdated-mingw-stuff.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0022-mingw-Remove-outdated-mingw-stuff.patch",
+    "sha256": "ec05f8f26698dae4e0e0b58189cbf509185ad6d40b4950b33e28b638bf70c7ae",
+    "bytes": 5553,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0023-Ada-Don-t-export-gnat1-s-symbols-on-PE-hosts.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0023-Ada-Don-t-export-gnat1-s-symbols-on-PE-hosts.patch",
+    "sha256": "395dd4df29c295f917aa4a136a0aa72af34eee6320ecc2d92ee717397578398d",
+    "bytes": 2560,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0024-libgfortran-Guard-locale-restoration-for-formatted-I0.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0024-libgfortran-Guard-locale-restoration-for-formatted-I0.patch",
+    "sha256": "976d14f803a211b19d9bf0169c08d4fde05af5cc18073f2fc8efc9a3cb17890a",
+    "bytes": 2138,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0025-libgfortran-Copy-LC_NUMERIC-string-for-formatted-IO.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0025-libgfortran-Copy-LC_NUMERIC-string-for-formatted-IO.patch",
+    "sha256": "f591efc820a2c72aefb83179f7cbd3f4654231b68700486bd04ee32e2db61de5",
+    "bytes": 1980,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0140-gcc-diagnostic-color.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0140-gcc-diagnostic-color.patch",
+    "sha256": "c94004dab1685a6fa9124de86aae742df4136a2e9ff5d5e1ad87ecdc35fbcef4",
+    "bytes": 1275,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/0200-add-m-no-align-vector-insn-option-for-i386.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0200-add-m-no-align-vector-insn-option-for-i386.patch",
+    "sha256": "1484911163634f30324827619c873a6267b377abba0df8bbedfd128163c53ea4",
+    "bytes": 7553,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/2001-fix-building-rust-on-mingw-w64.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/2001-fix-building-rust-on-mingw-w64.patch",
+    "sha256": "a411f59953553a3d01dd64c79b1acbb91eca092c4cb01bfd26b1c51c3eb798e8",
+    "bytes": 343,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/3001-fix-codeview-crashes.patch",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/3001-fix-codeview-crashes.patch",
+    "sha256": "f21f9ab731e9cab8fd4ca8c289497f859ef7004e6fa0507877dc2559ac2071c3",
+    "bytes": 4097,
+    "project": "MSYS2 GCC recipe/patch",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  },
+  {
+    "file": "msys2-recipes/gcc/PKGBUILD",
+    "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/PKGBUILD",
+    "sha256": "6fb36264b04efe6a27fdf36f84f729abb0c5bd2d9681b0a07650f8a6f3287277",
+    "bytes": 26051,
+    "project": "MSYS2 GCC recipe",
+    "version": "16.2.0-4",
+    "platform": "Windows",
+    "kind": "distribution-build-recipe",
+    "commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea"
+  }
+]

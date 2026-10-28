@@ -1,0 +1,44 @@
+[
+  {
+    "name": "clang-21",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/clang-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "clang-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "943b013e1f8e0ae4940a41406dd4f63e468e435054cbf5db5951a6dbbd3785ec"
+  },
+  {
+    "name": "libclang-common-21-dev",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libclang-common-21-dev_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "libclang-common-21-dev_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "8cac87266a164b961d85ebcc583806454957ba05429c74e87c4de5e9de2730aa"
+  },
+  {
+    "name": "libclang-cpp21",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libclang-cpp21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "libclang-cpp21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "68d5b7f5f1a9e4861f91ef51ea89724214a94caa3703fd311f344b53780c0088"
+  },
+  {
+    "name": "libclang1-21",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libclang1-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "libclang1-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "833be136a58b5ed4706b15dcd75bcb40482e4876a19c7b14435095a241546fb9"
+  },
+  {
+    "name": "libllvm21",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libllvm21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "libllvm21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "f1f058fff19f9d711c32b9efe5cd473dd2f0e7d5338d082fa5a25858322048cd"
+  },
+  {
+    "name": "lld-21",
+    "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+    "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/lld-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "filename": "lld-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+    "sha256": "956fff1ab75aaa2039de4e9237a18827e4f3fda1e485766e52f85107aee777d2"
+  }
+]

@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "msys2_recipe_commit": "0c90635596d2c7164dce16e025c63a1a8dd003ea",
+  "entries": [
+    {
+      "file": "msys2-recipes/gcc/gdbinit",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/gdbinit",
+      "sha256": "bce81824fc89e5e62cca350de4c17a27e27a18a1a1ad5ca3492aec1fc5af3234",
+      "bytes": 180,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0002-i386-Keep-SEH-enabled-for-Win64-sysv_abi-functions.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0002-i386-Keep-SEH-enabled-for-Win64-sysv_abi-functions.patch",
+      "sha256": "fdf4e90a56fc195a8f9a969af39335f158a29f29d42d33c00d908fc47cf5ad24",
+      "bytes": 3389,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0003-Windows-Follow-Posix-dir-exists-semantics-more-close.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0003-Windows-Follow-Posix-dir-exists-semantics-more-close.patch",
+      "sha256": "3fc35067823f87e48dd3bfd265e7593000dc110fa9ad5f16c81b896765fc897a",
+      "bytes": 4138,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0007-Build-EXTRA_GNATTOOLS-for-Ada.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0007-Build-EXTRA_GNATTOOLS-for-Ada.patch",
+      "sha256": "90d5cb570083f9dea4ac0f0f87e3e8d2230f5052e6f9b946061a20a224a9d195",
+      "bytes": 1267,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0008-Prettify-linking-no-undefined.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0008-Prettify-linking-no-undefined.patch",
+      "sha256": "8d2d53ae26b777d90189240494de1b895c5efa1ebdcdfbf5774f29fc742499d9",
+      "bytes": 1404,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0011-Enable-shared-gnat-implib.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0011-Enable-shared-gnat-implib.patch",
+      "sha256": "5ef4148acc4a2b7ed648d4fe75fab5545e84b4b93a12d6ba4e4ea6061dd635fa",
+      "bytes": 1474,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0012-Handle-spaces-in-path-for-default-manifest.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0012-Handle-spaces-in-path-for-default-manifest.patch",
+      "sha256": "e98805ead7d78ee2a92f237894c4b2b7ddc1688e1b517d8c04f28d440202e40f",
+      "bytes": 2243,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0014-gcc-9-branch-clone_function_name_1-Retain-any-stdcall-suffix.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0014-gcc-9-branch-clone_function_name_1-Retain-any-stdcall-suffix.patch",
+      "sha256": "fd9bdecb2bbc4796bbc9f00b708dac42ef9e3464a06d6d27e5475cee117de5be",
+      "bytes": 3690,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0020-libgomp-Don-t-hard-code-MS-printf-attributes.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0020-libgomp-Don-t-hard-code-MS-printf-attributes.patch",
+      "sha256": "ad1f7b5e7afaaec008b7cbd14feea13a10989fa91bda7003af72d457619bb199",
+      "bytes": 1608,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0021-bootstrap-gnattools-Pass-target-sysroot-flags-to-boo.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0021-bootstrap-gnattools-Pass-target-sysroot-flags-to-boo.patch",
+      "sha256": "76455c46eec4df95a80bbf7e5bcd2d165f300976c79c1baf0bf7ed20f000cdd4",
+      "bytes": 5086,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0022-mingw-Remove-outdated-mingw-stuff.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0022-mingw-Remove-outdated-mingw-stuff.patch",
+      "sha256": "ec05f8f26698dae4e0e0b58189cbf509185ad6d40b4950b33e28b638bf70c7ae",
+      "bytes": 5553,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0023-Ada-Don-t-export-gnat1-s-symbols-on-PE-hosts.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0023-Ada-Don-t-export-gnat1-s-symbols-on-PE-hosts.patch",
+      "sha256": "395dd4df29c295f917aa4a136a0aa72af34eee6320ecc2d92ee717397578398d",
+      "bytes": 2560,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0024-libgfortran-Guard-locale-restoration-for-formatted-I0.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0024-libgfortran-Guard-locale-restoration-for-formatted-I0.patch",
+      "sha256": "976d14f803a211b19d9bf0169c08d4fde05af5cc18073f2fc8efc9a3cb17890a",
+      "bytes": 2138,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0025-libgfortran-Copy-LC_NUMERIC-string-for-formatted-IO.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0025-libgfortran-Copy-LC_NUMERIC-string-for-formatted-IO.patch",
+      "sha256": "f591efc820a2c72aefb83179f7cbd3f4654231b68700486bd04ee32e2db61de5",
+      "bytes": 1980,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0140-gcc-diagnostic-color.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0140-gcc-diagnostic-color.patch",
+      "sha256": "c94004dab1685a6fa9124de86aae742df4136a2e9ff5d5e1ad87ecdc35fbcef4",
+      "bytes": 1275,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/0200-add-m-no-align-vector-insn-option-for-i386.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/0200-add-m-no-align-vector-insn-option-for-i386.patch",
+      "sha256": "1484911163634f30324827619c873a6267b377abba0df8bbedfd128163c53ea4",
+      "bytes": 7553,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/2001-fix-building-rust-on-mingw-w64.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/2001-fix-building-rust-on-mingw-w64.patch",
+      "sha256": "a411f59953553a3d01dd64c79b1acbb91eca092c4cb01bfd26b1c51c3eb798e8",
+      "bytes": 343,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/3001-fix-codeview-crashes.patch",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/3001-fix-codeview-crashes.patch",
+      "sha256": "f21f9ab731e9cab8fd4ca8c289497f859ef7004e6fa0507877dc2559ac2071c3",
+      "bytes": 4097,
+      "project": "MSYS2 GCC recipe/patch",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "msys2-recipes/gcc/PKGBUILD",
+      "url": "https://raw.githubusercontent.com/msys2/MINGW-packages/0c90635596d2c7164dce16e025c63a1a8dd003ea/mingw-w64-gcc/PKGBUILD",
+      "sha256": "6fb36264b04efe6a27fdf36f84f729abb0c5bd2d9681b0a07650f8a6f3287277",
+      "bytes": 26051,
+      "project": "MSYS2 GCC recipe",
+      "version": "16.2.0-4",
+      "platform": "Windows",
+      "kind": "distribution-build-recipe"
+    },
+    {
+      "file": "gcc-16.2.0.tar.xz",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz",
+      "sha256": "e6738e29597f733270731aa90600f37ffdc045079dfc27ec7e8192cc81085c3e",
+      "bytes": 107200820,
+      "project": "GCC",
+      "version": "16.2.0",
+      "platform": "Windows",
+      "kind": "upstream-source-archive"
+    },
+    {
+      "file": "gcc-16.2.0.tar.xz.sig",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz.sig",
+      "sha256": "43d73202dcede15d31001c6ba0d28723014ef57e4dc815631772daadbe23bcd2",
+      "bytes": 310,
+      "project": "GCC",
+      "version": "16.2.0",
+      "platform": "Windows",
+      "kind": "upstream-detached-signature"
+    },
+    {
+      "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+      "sha256": "50950080874a6ec6780dd60c243e21d9cda9d736bb32bca98d16095d27cc01b5",
+      "bytes": 46930,
+      "project": "gcc-14",
+      "version": "14.2.0-4ubuntu2~24.04.1",
+      "platform": "Linux",
+      "kind": "distribution-source-descriptor"
+    },
+    {
+      "file": "gcc-14_14.2.0.orig.tar.gz",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0.orig.tar.gz",
+      "sha256": "768c314c11eeab56ccebb91eb42ec4a41122fa94f0d83400126401942622197b",
+      "bytes": 97158172,
+      "project": "gcc-14",
+      "version": "14.2.0-4ubuntu2~24.04.1",
+      "platform": "Linux",
+      "kind": "distribution-source-archive"
+    },
+    {
+      "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+      "sha256": "cfece214c2fb790ef5f3baffb9a53e40618e7ae12d053610b251e94d77d08ade",
+      "bytes": 1950432,
+      "project": "gcc-14",
+      "version": "14.2.0-4ubuntu2~24.04.1",
+      "platform": "Linux",
+      "kind": "distribution-source-archive"
+    }
+  ],
+  "verification": "Archives and patches checked against exact distribution descriptors/recipes. Detached signatures retained, not independently validated."
+}

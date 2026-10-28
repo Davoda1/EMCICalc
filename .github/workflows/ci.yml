@@ -1,0 +1,82 @@
+name: CI
+run-name: CI (${{ inputs.native_scope || 'full' }})
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      native_scope:
+        description: Native regression scope (every option except full is partial)
+        type: choice
+        default: full
+        options: [full, captions, keypad, caption_keypad]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  source:
+    name: Source and packaging checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check source, metadata, fixtures and notices
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: timeout --signal=TERM --kill-after=10s 540s /usr/bin/python3 scripts/ci_checks.py
+      - name: Retain source-check result
+        if: ${{ always() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: desktop-source-checks-${{ github.run_id }}
+          path: .ci-results/source-checks.json
+          if-no-files-found: ignore
+          retention-days: 7
+          include-hidden-files: true
+
+  linux:
+    name: Linux native build and regressions (${{ inputs.native_scope || 'full' }})
+    needs: source
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      CMAKE_BUILD_PARALLEL_LEVEL: '2'
+      CI_NATIVE_SCOPE: ${{ inputs.native_scope || 'full' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install Linux development packages
+        timeout-minutes: 5
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            build-essential cmake ninja-build pkg-config qt6-base-dev qt6-qpa-plugins \
+            libgmp-dev libmpfr-dev libxml2-dev zlib1g-dev \
+            fonts-dejavu-core fonts-liberation
+      - name: Build the application and focused test targets
+        run: timeout --signal=TERM --kill-after=10s 1320s bash scripts/ci_linux.sh build
+      - name: Run focused native regressions
+        run: timeout --signal=TERM --kill-after=10s 480s bash scripts/ci_linux.sh test
+      - name: Retain native-test results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: desktop-linux-tests-${{ inputs.native_scope || 'full' }}-${{ github.run_id }}
+          path: |
+            .ci-results/native-scope.txt
+            .ci-results/linux-tests.xml
+            build-ci-linux/Testing/Temporary/LastTest.log
+          if-no-files-found: ignore
+          retention-days: 7
+          include-hidden-files: true

@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "release": "1.0.0",
+  "target": "x86_64-w64-windows-gnu",
+  "application_compiler": {
+    "name": "Clang",
+    "version": "21.1.8",
+    "host": "Linux x86_64",
+    "package_manifest": "windows-clang-host-packages.json"
+  },
+  "linker": {
+    "name": "LLD",
+    "version": "21.1.8",
+    "host": "Linux x86_64"
+  },
+  "resource_compiler_and_archive_tools": {
+    "name": "GNU MinGW binutils",
+    "version": "GNU windres (GNU Binutils) 2.41.90.20240122"
+  },
+  "target_dependency_set": {
+    "distribution": "MSYS2 MINGW64",
+    "gcc_headers_and_runtime": "16.2.0-4",
+    "libqalculate": "5.12.0, already compiled with MSYS2 GCC 16.2.0-4",
+    "qt": "6.11.2-2",
+    "zlib": "1.3.2-2",
+    "crt": "MSVCRT",
+    "cxx_library": "libstdc++",
+    "compiler_runtime": "libgcc",
+    "thread_model": "POSIX (winpthreads)",
+    "exception_model": "SEH",
+    "package_manifest": "windows-build-toolchain-manifest.json"
+  },
+  "cmake_toolchain": "scripts/cmake/mingw64-clang.cmake",
+  "windows_runtime_execution_verified": false,
+  "verification_note": "Describes Windows cross-compilation inputs. Compile/link and PE import/export audits do not establish Windows runtime execution; this metadata does not validate an application build.",
+  "documentation": [
+    "https://clang.llvm.org/docs/Toolchain.html",
+    "https://clang.llvm.org/docs/CrossCompilation.html"
+  ],
+  "resource_preprocessing": {
+    "compiler": "Native Clang 21.1.8",
+    "target": "x86_64-w64-windows-gnu",
+    "flags": [
+      "-E",
+      "-xc",
+      "-DRC_INVOKED",
+      "--target=x86_64-w64-windows-gnu",
+      "--sysroot=<matching MSYS2 prefix>"
+    ],
+    "note": "Passed to GNU windres with --preprocessor and --preprocessor-arg; no Windows compiler execution."
+  },
+  "libqalculate_import_library_recovery": {
+    "dll_origin": "libqalculate dependency DLL identified by the recorded SHA-256; build inputs are described in libqalculate-build.json.",
+    "dll_sha256": "59015b5c2b57f2780919ba232dd9b4128db45780a3edda0636a84b66ce5aa6e7",
+    "helper": "scripts/rebuild-import-library.py",
+    "named_exports": 6113,
+    "data_exports": 933,
+    "headers": "Unchanged bundled libqalculate 5.12.0 source public headers",
+    "note": "The helper rebuilds the GNU import archive using PE export and section tables plus native GNU dlltool. DATA exports are identified from section execute flags. The existing DLL and its dependency ABI are unchanged."
+  },
+  "provenance": "Dependency and toolchain input metadata. Application builds and runtime validation require separate evidence.",
+  "runtime_components": [
+    "Qt6Network.dll",
+    "tls/qschannelbackend.dll"
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "product": "EMCICalc Desktop Edition",
+  "version": "1.0.0",
+  "linux": {
+    "compiler": "GCC 13.3.0-6ubuntu2~24.04",
+    "Qt": "6.4.2+dfsg-21.1build5",
+    "libqalculate": "5.12.0",
+    "compiler_binary": "/usr/bin/g++",
+    "engine_source_sha256": "f3dfdcf97d5a9e3a5bc0ebe66afd184721b606276eee3ba0ada8c92a5e71d44c",
+    "engine_flags": [
+      "--without-libcurl",
+      "--without-icu",
+      "--without-gnuplot-call",
+      "--disable-nls",
+      "--disable-textport",
+      "--disable-static",
+      "--disable-insecure",
+      "--enable-compiled-definitions"
+    ],
+    "engine_build_inputs": "libqalculate 5.12.0, Ubuntu 24.04, the pinned upstream source and recorded configure flags. Matching public headers are required."
+  },
+  "windows": {
+    "compiler": "Clang 21.1.8",
+    "linker": "LLD 21.1.8",
+    "target": "x86_64-w64-windows-gnu",
+    "Qt": "6.11.2-2",
+    "GCC_headers_runtime": "16.2.0-4",
+    "CRT": "MSVCRT",
+    "threading": "POSIX / winpthreads",
+    "exceptions": "SEH",
+    "libqalculate": "5.12.0",
+    "engine_dll_sha256": "59015b5c2b57f2780919ba232dd9b4128db45780a3edda0636a84b66ce5aa6e7",
+    "engine_dll_input": "libqalculate dependency DLL identified by engine_dll_sha256. The provided PE-export helper reconstructs its import archive; headers must match the pinned 5.12.0 source."
+  },
+  "packages_sha256_verified": [
+    {
+      "name": "libb2-1",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/libb/libb2/libb2-1_0.98.1-1.1build1_amd64.deb",
+      "file": "libb2-1_0.98.1-1.1build1_amd64.deb",
+      "sha256": "c23173e035b257118540266098bd4f1928c67d918ad981b1e13e6e0d9847d69c",
+      "dest": "linux"
+    },
+    {
+      "name": "xorg-sgml-doctools",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb",
+      "file": "xorg-sgml-doctools_1%3a1.11-1.1_all.deb",
+      "sha256": "277f662c6d94606c22078f2af82ac1b6e01386d5a4dec6ca7487bca4c5b23c07",
+      "dest": "linux"
+    },
+    {
+      "name": "x11proto-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xorgproto/x11proto-dev_2023.2-1_all.deb",
+      "file": "x11proto-dev_2023.2-1_all.deb",
+      "sha256": "3bf13a2ffb79ecd4014d438936014e5863f79eb59ebf76e8f43356271c90e7ce",
+      "dest": "linux"
+    },
+    {
+      "name": "libxau-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxau/libxau-dev_1.0.9-1build6_amd64.deb",
+      "file": "libxau-dev_1%3a1.0.9-1build6_amd64.deb",
+      "sha256": "46783c6af2d87c06394d55dfaa21dac07396f13cfc5ea6afbd9313ab49fc0e50",
+      "dest": "linux"
+    },
+    {
+      "name": "libxdmcp-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.3-0ubuntu6_amd64.deb",
+      "file": "libxdmcp-dev_1%3a1.1.3-0ubuntu6_amd64.deb",
+      "sha256": "ba2f2230b391c292f5f399d6e04d48181be6b3100556f7870591ca95c9d00667",
+      "dest": "linux"
+    },
+    {
+      "name": "xtrans-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb",
+      "file": "xtrans-dev_1.4.0-1_all.deb",
+      "sha256": "45277c51d5d83db351b61859314b59595c9626ac372fbb2fc0d5542e169d9086",
+      "dest": "linux"
+    },
+    {
+      "name": "libpthread-stubs0-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1build3_amd64.deb",
+      "file": "libpthread-stubs0-dev_0.4-1build3_amd64.deb",
+      "sha256": "b8f278da7b1907d3014c01f9bc89748208a8cd3b770f0f55f1528afcc98dc6c0",
+      "dest": "linux"
+    },
+    {
+      "name": "libxcb1-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1-dev_1.15-1ubuntu2_amd64.deb",
+      "file": "libxcb1-dev_1.15-1ubuntu2_amd64.deb",
+      "sha256": "1bafe3432feafc9e57f858721da524dfb3ee1f6fc4ef6b0c73023e79eadb9c28",
+      "dest": "linux"
+    },
+    {
+      "name": "libx11-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11-dev_1.8.7-1build1_amd64.deb",
+      "file": "libx11-dev_2%3a1.8.7-1build1_amd64.deb",
+      "sha256": "1969e200607ffe34070b92fe1bd3ba76ac2e2bd2f3a54530800c5872076fad24",
+      "dest": "linux"
+    },
+    {
+      "name": "libglx-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglx-dev_1.7.0-1build1_amd64.deb",
+      "file": "libglx-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "0e2654950a881c20b640a3af590add2e0b612b8c0fdd945761fc695e1b6eb797",
+      "dest": "linux"
+    },
+    {
+      "name": "libgl-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libgl-dev_1.7.0-1build1_amd64.deb",
+      "file": "libgl-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "b7145fd8f8abe20d5cb436d2eae9b3235bd91be6fbddac581620d16763bd9250",
+      "dest": "linux"
+    },
+    {
+      "name": "libopengl-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libopengl-dev_1.7.0-1build1_amd64.deb",
+      "file": "libopengl-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "da50e2804e80391e5c3d7f61af70b41ff6d0d20e4862136ceb8828000637c273",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6core6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6core6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6core6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "1f6e26589271c1d7aa549cb86d0156ff589b764d37edf356712fecebfe5f30f8",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6concurrent6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6concurrent6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6concurrent6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "458bcc5f69954fed963354f248ab5ab78b9a06f5823f9e2a4b88a6e32fa940c6",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6dbus6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6dbus6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6dbus6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "20891a752f6569b8b0772b0c81b7251eb3394fdef57bf52870f4825cb0e9c0de",
+      "dest": "linux"
+    },
+    {
+      "name": "libts0t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/tslib/libts0t64_1.22-1.1build1_amd64.deb",
+      "file": "libts0t64_1.22-1.1build1_amd64.deb",
+      "sha256": "892524fd6a070e9e6a6b084d3a4099b81d6fbbd82a1c7bd4b67a8e6e998ac5a3",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6gui6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6gui6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6gui6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "f8774151f151a932d389817a371a3241004b1c3031cf53afd91feed73c8dd68e",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6network6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6network6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6network6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "743f289d5f7b1a4cafa021de62bcd705122bad06ba5d3a2c971fd7d34b87752f",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6opengl6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6opengl6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6opengl6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "dc7b43aa74d5694ab10e02bee7751c1bea0905ed6f0aaf527bff1952c582403f",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6widgets6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6widgets6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6widgets6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "9d5aba1eeb471c1230a94eb1865a95df0595ed8311971acf50fff2652452562d",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6openglwidgets6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6openglwidgets6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6openglwidgets6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "68a328430e1d354532d718969c74f2df4579777375d3a47d5e2bc999819cdc9d",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6printsupport6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6printsupport6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6printsupport6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "5e068edcc290d740bcbf34d2bcc7be8efb738f47bb2460849742ba221cbb7b15",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6sql6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6sql6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6sql6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "35155bb0ef40d8769004f75a2a000029f86adfdd3cd76a14eeab2e68951f407e",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6test6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6test6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6test6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "7d0f27c84fab37ec9f574d8cb47f117d411bceffba2eada10436928bccb22537",
+      "dest": "linux"
+    },
+    {
+      "name": "libqt6xml6t64",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/libqt6xml6t64_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "libqt6xml6t64_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "7999c22f56a9b8d23e4d5e7cd7d0e679df581c8e72015baaa4e2b870746245ad",
+      "dest": "linux"
+    },
+    {
+      "name": "libvulkan-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vulkan-loader/libvulkan-dev_1.3.275.0-1build1_amd64.deb",
+      "file": "libvulkan-dev_1.3.275.0-1build1_amd64.deb",
+      "sha256": "9577a2c5379372ca8231e700728390fa7d4991a0d8c6484ad83da849c728e76e",
+      "dest": "linux"
+    },
+    {
+      "name": "qmake6-bin",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qmake6-bin_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "qmake6-bin_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "85005a23941c2ac634d02758ffcb7dd9ddaebe88aa15b3bcf4914ca3ee3774e7",
+      "dest": "linux"
+    },
+    {
+      "name": "qmake6",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qmake6_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "qmake6_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "2226948252b282854a26311054930964895863fdcab65151591ea11a1a1731e6",
+      "dest": "linux"
+    },
+    {
+      "name": "qt6-base-dev-tools",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-base-dev-tools_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "qt6-base-dev-tools_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "6d24069f67e2ffdde4b7295780ebc89673d7ee66a1ecf9cc383405d0d651fb23",
+      "dest": "linux"
+    },
+    {
+      "name": "qt6-qpa-plugins",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-qpa-plugins_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "qt6-qpa-plugins_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "10999ac52ea568d6d4ea896b16ccf931b1eb2fd9e96e058a743f00e2e7f099d2",
+      "dest": "linux"
+    },
+    {
+      "name": "qt6-base-dev",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/q/qt6-base/qt6-base-dev_6.4.2%2bdfsg-21.1build5_amd64.deb",
+      "file": "qt6-base-dev_6.4.2+dfsg-21.1build5_amd64.deb",
+      "sha256": "f81ea0070597621c2a1027d753c343c8204a2fce601b1a92d6e264d909a32bfb",
+      "dest": "linux"
+    },
+    {
+      "name": "clang-21",
+      "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+      "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/clang-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "filename": "clang-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "sha256": "943b013e1f8e0ae4940a41406dd4f63e468e435054cbf5db5951a6dbbd3785ec",
+      "file": "clang-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "dest": "llvm"
+    },
+    {
+      "name": "libclang-common-21-dev",
+      "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+      "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libclang-common-21-dev_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "filename": "libclang-common-21-dev_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "sha256": "8cac87266a164b961d85ebcc583806454957ba05429c74e87c4de5e9de2730aa",
+      "file": "libclang-common-21-dev_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "dest": "llvm"
+    },
+    {
+      "name": "libclang-cpp21",
+      "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+      "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libclang-cpp21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "filename": "libclang-cpp21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "sha256": "68d5b7f5f1a9e4861f91ef51ea89724214a94caa3703fd311f344b53780c0088",
+      "file": "libclang-cpp21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "dest": "llvm"
+    },
+    {
+      "name": "libllvm21",
+      "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+      "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/libllvm21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "filename": "libllvm21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "sha256": "f1f058fff19f9d711c32b9efe5cd473dd2f0e7d5338d082fa5a25858322048cd",
+      "file": "libllvm21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "dest": "llvm"
+    },
+    {
+      "name": "lld-21",
+      "version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+      "url": "https://apt.llvm.org/noble/pool/main/l/llvm-toolchain-21/lld-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "filename": "lld-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "sha256": "956fff1ab75aaa2039de4e9237a18827e4f3fda1e485766e52f85107aee777d2",
+      "file": "lld-21_21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70_amd64.deb",
+      "dest": "llvm"
+    },
+    {
+      "name": "mingw-w64-x86_64-qt6-base",
+      "version": "6.11.2-2",
+      "file": "mingw-w64-x86_64-qt6-base-6.11.2-2-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-qt6-base-6.11.2-2-any.pkg.tar.zst",
+      "sha256": "c15187bfa6c4c15a8d64788af4ba8b830c3faab6e2395201e2aaa7e0d993cb84",
+      "upstream": "https://www.qt.io",
+      "licenses": [
+        "spdx:LGPL-3.0-only WITH Qt-GPL-exception-1.0 AND AFL-2.1 AND Apache-2.0 AND BSL-1.0 AND CC0-1.0 AND BSD-3-Clause AND CC-BY-4.0 AND GFDL-1.3-no-invariants-only AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND custom"
+      ],
+      "download_bytes": 16979178,
+      "depends": [
+        "mingw-w64-x86_64-double-conversion",
+        "mingw-w64-x86_64-dbus",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-harfbuzz",
+        "mingw-w64-x86_64-icu",
+        "mingw-w64-x86_64-libb2",
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-md4c",
+        "mingw-w64-x86_64-openssl",
+        "mingw-w64-x86_64-pcre2",
+        "mingw-w64-x86_64-sqlite3",
+        "mingw-w64-x86_64-vulkan-loader",
+        "mingw-w64-x86_64-vulkan-headers",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-libwinpthread",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "file": "mingw-w64-x86_64-libwinpthread-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libwinpthread-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "sha256": "543017ce2731292b215bf1d36fd70a86d8a8d5ed0afba9d3db9fff89804cda71",
+      "upstream": "https://www.mingw-w64.org/",
+      "licenses": [
+        "spdx:MIT AND BSD-3-Clause-Clear"
+      ],
+      "download_bytes": 31704,
+      "depends": [],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-libgcc",
+      "version": "16.2.0-4",
+      "file": "mingw-w64-x86_64-libgcc-16.2.0-4-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgcc-16.2.0-4-any.pkg.tar.zst",
+      "sha256": "d615f6a8536ca16b1f049daea1fa440a3b7a405449ec0e93ad6106db43682d54",
+      "upstream": "https://gcc.gnu.org",
+      "licenses": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "download_bytes": 77173,
+      "depends": [
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-libstdc++",
+      "version": "16.2.0-4",
+      "file": "mingw-w64-x86_64-libstdc++-16.2.0-4-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libstdc++-16.2.0-4-any.pkg.tar.zst",
+      "sha256": "3d4c3faf4c2c5c7a851ff12214ddcbf8c0d6df0964fc1d3ebd8c38f227183034",
+      "upstream": "https://gcc.gnu.org",
+      "licenses": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "download_bytes": 797348,
+      "depends": [
+        "mingw-w64-x86_64-libgcc=16.2.0-4",
+        "mingw-w64-x86_64-libwinpthread",
+        "mingw-w64-x86_64-tzdata"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-zlib",
+      "version": "1.3.2-2",
+      "file": "mingw-w64-x86_64-zlib-1.3.2-2-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-zlib-1.3.2-2-any.pkg.tar.zst",
+      "sha256": "9e75842a070ba648e986e12424e1c92c9d7d77200e85f6a34eeb600819f2e694",
+      "upstream": "https://www.zlib.net/",
+      "licenses": [
+        "spdx:Zlib"
+      ],
+      "download_bytes": 112476,
+      "depends": [],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-libiconv",
+      "version": "1.19-1",
+      "file": "mingw-w64-x86_64-libiconv-1.19-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libiconv-1.19-1-any.pkg.tar.zst",
+      "sha256": "21e334d0911f25de75d3e18e0697648bcecfa9658256d600cad0827d719c2f35",
+      "upstream": "https://www.gnu.org/software/libiconv/",
+      "licenses": [
+        "spdx:LGPL-2.1-or-later",
+        "documentation:spdx:GPL-3.0-or-later"
+      ],
+      "download_bytes": 745957,
+      "depends": [],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-gmp",
+      "version": "6.3.0-2",
+      "file": "mingw-w64-x86_64-gmp-6.3.0-2-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gmp-6.3.0-2-any.pkg.tar.zst",
+      "sha256": "8924433974c4add46cb46ea4f6ef283b5c5139d3f552375115b5580f855015cc",
+      "upstream": "https://gmplib.org/",
+      "licenses": [
+        "LGPL3",
+        "GPL"
+      ],
+      "download_bytes": 591674,
+      "depends": [],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-mpfr",
+      "version": "4.2.2-3",
+      "file": "mingw-w64-x86_64-mpfr-4.2.2-3-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-mpfr-4.2.2-3-any.pkg.tar.zst",
+      "sha256": "9ecbc05f1f855bc656a8f111d367f61fbd90dbbfcf469ba74d6d5dd1ec07a542",
+      "upstream": "https://www.mpfr.org",
+      "licenses": [
+        "spdx:LGPL-3.0-or-later"
+      ],
+      "download_bytes": 554568,
+      "depends": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-gmp"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-libxml2",
+      "version": "2.15.4-1",
+      "file": "mingw-w64-x86_64-libxml2-2.15.4-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libxml2-2.15.4-1-any.pkg.tar.zst",
+      "sha256": "b79dcaea6713e8d09af334de946db364eb501b5be2ec2f75dc7608e61b5d0316",
+      "upstream": "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home",
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "download_bytes": 1008040,
+      "depends": [
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-winpthreads",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "file": "mingw-w64-x86_64-winpthreads-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-winpthreads-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "sha256": "f8e8cea030192fedc17a41167a868c4de909ebf01ea9730d8d1133641b208785",
+      "upstream": "https://www.mingw-w64.org/",
+      "licenses": [
+        "spdx:MIT AND BSD-3-Clause-Clear"
+      ],
+      "download_bytes": 45673,
+      "depends": [
+        "mingw-w64-x86_64-crt",
+        "mingw-w64-x86_64-libwinpthread=14.0.0.r426.g4564ee4b5"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-gcc",
+      "version": "16.2.0-4",
+      "file": "mingw-w64-x86_64-gcc-16.2.0-4-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-16.2.0-4-any.pkg.tar.zst",
+      "sha256": "7928a168fe0827e6ba41ea672a9957a5bfa47f732f6922e86cf0f24dd61e5d0c",
+      "upstream": "https://gcc.gnu.org",
+      "licenses": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "file": "mingw-w64-x86_64-crt-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-crt-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "sha256": "5513117e204c933ed3b3e17b1bb809667653b72b3ca932d0c048ffc8f01f3801",
+      "upstream": "https://www.mingw-w64.org/",
+      "licenses": [
+        "spdx:ZPL-2.1"
+      ],
+      "dest": "windows"
+    },
+    {
+      "name": "mingw-w64-x86_64-headers",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "file": "mingw-w64-x86_64-headers-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-headers-14.0.0.r426.g4564ee4b5-1-any.pkg.tar.zst",
+      "sha256": "b6f06085e8f3858cb59ed72d581203c75000592bdaa55af2710be3b1a752a7bb",
+      "upstream": "https://www.mingw-w64.org/",
+      "licenses": [
+        "spdx:ZPL-2.1 AND LGPL-2.1-or-later"
+      ],
+      "dest": "windows"
+    }
+  ],
+  "source_inventory": "Existing third_party/sources and SHA256SUMS.txt supply corresponding source for bundled copyleft runtimes; host-only compiler packages are build inputs, not shipped runtime components.",
+  "provenance": "Dependency and toolchain input metadata. Application builds and runtime validation require separate evidence."
+}
