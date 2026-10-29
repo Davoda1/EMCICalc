@@ -1,7 +1,9 @@
+![EMCICalc Desktop — Windows and GNU/Linux](docs/extras/banner.png)
+
 # EMCICalc Desktop Edition 1.0.0
 
-EMCICalc is a native C++17 / Qt 6 Widgets calculator and mathematical workspace
-by **davoda1** for Windows 10/11 x64 and GNU/Linux x86_64.
+EMCICalc is a native scientific calculator and mathematical workspace by
+**davoda1** for Windows 10/11 x64 and GNU/Linux x86_64, built with C++17 and Qt 6 Widgets.
 
 Desktop and Calculator modes have independent themes, layouts, settings and
 window geometry. Features include exact and approximate calculations, symbolic
@@ -9,6 +11,26 @@ operations, natural and linear input, units and currency, graphs, matrices,
 statistics, Finance worksheets, bounded Steps explanations, history, registers
 and workspace exchange. The interface supports nine languages, keyboard and
 mouse input, and accessibility labels.
+
+## Download and get started
+
+[Download EMCICalc 1.0.0](https://github.com/Davoda1/EMCICalc/releases/tag/v1.0.0)
+· [Online manual](https://davoda1.github.io/EMCICalc-Manual/)
+· [Android edition](https://github.com/Davoda1/EMCICalc-Android)
+
+| Platform | Package | Start the application |
+| --- | --- | --- |
+| Windows 10/11 x64 | `EMCICalc-1.0.0-Windows-x64.zip` | Extract the archive and run `EMCICalc.exe`. |
+| GNU/Linux x86_64 | `EMCICalc-1.0.0-Linux-x86_64.tar.gz` | Extract the archive and run `EMCICalc`. |
+| Debian-based GNU/Linux amd64 | `emcicalc_1.0.0_amd64.deb` | Install the package and open EMCICalc from the application menu. |
+
+The release includes `SHA256SUM.txt` for checking downloads, release notes and
+source archives. The online manual covers setup, calculator modes, keyboard
+shortcuts and the mathematical workbenches.
+
+<p align="center">
+  <img src="docs/extras/poster.png" width="400" alt="EMCICalc in Classic Calculator mode with an empty display">
+</p>
 
 ## Build and use
 
